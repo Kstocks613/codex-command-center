@@ -1,24 +1,47 @@
 # First Sprint Plan
 
-Codex should complete this after onboarding.
+Codex Manager must complete this after intake, context creation, skills/agent planning, research/workstream planning, and Council review when needed.
 
 ## Sprint Goal
 
 TBD.
 
-## Deliverable by End of Sprint
+## Smallest Useful Deliverable
 
 TBD.
 
+## Included Scope
+
+- TBD.
+
+## Explicitly Excluded Scope
+
+- Full product build unless specifically approved.
+- Public deployment unless explicitly approved.
+- Paid services, auth, payments, migrations, and production data unless explicitly approved.
+
 ## Tasks
 
-1. TBD
+| ID | Task | Owner / Agent | Approval Level | Status |
+|---|---|---|---|---|
 
 ## Required User Inputs
 
 TBD.
 
-## Required Integrations
+## Required Documents / Assets
+
+TBD.
+
+## Required Integrations / Accounts / APIs
+
+TBD.
+
+## Research / Workstream Plan
+
+TBD.
+
+## Validation Plan
 
 TBD.
 
@@ -30,6 +53,6 @@ TBD.
 
 TBD.
 
-## What I Will Not Do Yet
+## Approval Question
 
-TBD.
+Do you approve this sprint plan, or should I revise scope before implementation?

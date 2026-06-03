@@ -1,6 +1,6 @@
 # Missing Information
 
-Codex should maintain this file.
+Codex Manager must maintain this file during launch and execution.
 
-| Priority | Question | Why It Matters | Needed Before Coding? | Answer |
-|---|---|---|---|---|
+| Priority | Question or Missing Artifact | Why It Matters | Needed Before Coding? | Owner | Status | Answer / Link |
+|---|---|---|---|---|---|---|

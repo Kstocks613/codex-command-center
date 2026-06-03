@@ -1,17 +1,19 @@
 # Codex Manager Workflow Kit
 
-A reusable, Codex-ready operating system for turning a raw project idea into a managed build workflow.
+A reusable, Codex-ready operating system for turning a raw project idea into a verified, documented, manager-led build workflow.
 
 This repository package is designed to be dropped into a new or existing GitHub repo so Codex can immediately:
 
-1. inspect the repo,
-2. ask for missing project context,
-3. recommend accounts, APIs, plugins, and integrations,
-4. create a plan,
-5. spawn or simulate specialist agents,
-6. run a recursive AI council review for major decisions,
-7. execute work in small, testable increments,
-8. maintain decision logs, task logs, and deployment notes.
+1. verify the repo root,
+2. enter manager/intake mode,
+3. ask for documentation, URLs, screenshots, accounts, APIs, research files, and decisions,
+4. create `PROJECT_CONTEXT.md` and `REQUIRED_DOCUMENTS.md`,
+5. recommend accounts, APIs, plugins, skills, and integrations,
+6. create a research/workstream plan and agent roster,
+7. run a recursive AI council review for strategic decisions,
+8. ask for sprint approval before implementation,
+9. execute approved work in small, testable increments,
+10. maintain decision logs, task logs, and deployment notes.
 
 ## What this is
 
@@ -19,7 +21,8 @@ This is not a single prompt. It is a workflow package.
 
 It includes:
 
-- `AGENTS.md` — root project instructions Codex should read before doing work.
+- `AGENTS.md` — strict root operating contract Codex must read before doing work.
+- `00_NEW_PROJECT_LAUNCH_PROTOCOL.md` — exact launch protocol that blocks premature build mode.
 - `.agents/skills/` — reusable Codex skills for management, research, council review, deployment, QA, and integration discovery.
 - `prompts/` — copy/paste prompts for Codex web, Codex app, CLI, or IDE extension.
 - `docs/` — project templates Codex should create, complete, and maintain.
@@ -59,7 +62,7 @@ This is a new project created from the Codex Command Center template.
 
 Do not build yet.
 
-Enter Codex Manager mode first.
+Enter Codex Manager mode first and follow `00_NEW_PROJECT_LAUNCH_PROTOCOL.md`.
 
 Read:
 - AGENTS.md
@@ -78,6 +81,8 @@ Complete these steps:
 
 1. Inspect the repo and summarize what exists.
 2. Create or update:
+   - PROJECT_CONTEXT.md
+   - REQUIRED_DOCUMENTS.md
    - PROJECT_BRIEF.md
    - MISSING_INFO.md
    - INTEGRATIONS_TO_CREATE.md
@@ -93,6 +98,6 @@ Complete these steps:
 5. Ask me only the critical questions needed before work begins.
 6. Recommend integrations, APIs, accounts, and deployment setup.
 7. Propose the first sprint.
-8. Wait for my approval before coding.
+8. Ask for sprint approval and wait for approval before coding.
 
 Do not write implementation code until I approve the first sprint plan.
