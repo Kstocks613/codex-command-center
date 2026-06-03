@@ -1,6 +1,6 @@
 # Execution Loop
 
-After onboarding, use this loop:
+After launch approval, use this loop. Before approval, stay in manager/intake/planning mode:
 
 ```text
 1. Inspect context
@@ -10,17 +10,18 @@ After onboarding, use this loop:
 5. Create project plan
 6. Create agent roster
 7. Run Council if needed
-8. Execute smallest useful task
-9. Test or validate
-10. Review output
-11. Log decisions
-12. Ask for approval on next key step
-13. Repeat
+8. Ask for sprint approval
+9. Execute smallest useful task
+10. Test or validate
+11. Review output
+12. Log decisions
+13. Ask for approval on next key step
+14. Repeat
 ```
 
 ## Anti-Overbuilding Rule
 
-Do not build dashboards, auth, payments, complex data models, or deployment automation until the first useful deliverable is clear.
+Do not build dashboards, auth, payments, complex data models, or deployment automation until the first useful deliverable is clear and the sprint plan has been approved.
 
 ## First Useful Deliverable Examples
 

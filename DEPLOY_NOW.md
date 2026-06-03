@@ -69,7 +69,7 @@ git push -u origin main
 2. Connect your GitHub account.
 3. Select this repo.
 4. Start a new task.
-5. Paste the startup prompt from `prompts/CODEX_STARTUP_PROMPT.md`.
+5. Paste the startup prompt from `prompts/CODEX_STARTUP_PROMPT.md`, which points Codex to `AGENTS.md` and `00_NEW_PROJECT_LAUNCH_PROTOCOL.md`.
 
 ### Codex app / CLI
 
@@ -92,18 +92,20 @@ Paste this:
 ```markdown
 Use the repository's `AGENTS.md` and `.agents/skills` instructions.
 
-Run the Codex Manager Startup Protocol.
+Run the Codex Manager New Project Launch Protocol.
 
-Do not code yet.
+Do not code yet. Do not scaffold a sample product.
 
 First:
-1. Inspect this repo.
-2. Summarize what you found.
-3. Create or update the project operating docs.
-4. Identify missing information, integrations, APIs, accounts, plugins, and decisions.
-5. Ask me the minimum questions required before execution.
-6. Recommend the first sprint.
-7. Run the AI Council only if a strategic decision is required.
+1. Verify the repo root.
+2. Enter manager mode.
+3. Ask for documentation, URLs, screenshots, accounts, APIs, research files, and decisions.
+4. Create or update `PROJECT_CONTEXT.md`, `REQUIRED_DOCUMENTS.md`, and the other required operating docs.
+5. Identify missing information, integrations, APIs, accounts, plugins, skills, and decisions.
+6. Build the agent roster and research/workstream plan.
+7. Run Council review for strategic decisions, or record why it is not required.
+8. Propose the first sprint.
+9. Ask for sprint approval before implementation.
 ```
 
 ## 7. What to expect
@@ -115,6 +117,8 @@ Codex should produce a startup report with:
 - Recommended environment setup
 - Required accounts / APIs / plugins
 - Questions before work starts
+- Project context
+- Required documents
 - First sprint plan
 - Agent roster
 - Approval policy
@@ -144,5 +148,5 @@ scripts/
 Then ask Codex:
 
 ```markdown
-This repo now contains the Codex Manager Workflow Kit. Read AGENTS.md and run the startup protocol for this specific project. Update PROJECT_BRIEF.md, MISSING_INFO.md, INTEGRATIONS_TO_CREATE.md, FIRST_SPRINT_PLAN.md, TASK_LOG.md, and DECISION_LOG.md before coding.
+This repo now contains the Codex Manager Workflow Kit. Read AGENTS.md and 00_NEW_PROJECT_LAUNCH_PROTOCOL.md, then run the launch protocol for this specific project. Update PROJECT_CONTEXT.md, REQUIRED_DOCUMENTS.md, PROJECT_BRIEF.md, MISSING_INFO.md, INTEGRATIONS_TO_CREATE.md, AGENT_ROSTER.md, FIRST_SPRINT_PLAN.md, TASK_LOG.md, DECISION_LOG.md, APPROVAL_POLICY.md, and COUNCIL_REPORT.md before coding. Ask for sprint approval before implementation.
 ```

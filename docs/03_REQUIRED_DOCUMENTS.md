@@ -1,11 +1,13 @@
 # Required Documents
 
-Codex Manager should create or request these documents before serious execution.
+Codex Manager must create or request these documents during the launch protocol before implementation. A raw request to "build" does not bypass this documentation gate.
 
 ## Always Useful
 
 | Document | Purpose | Required Before Coding? |
 |---|---|---|
+| `PROJECT_CONTEXT.md` | Canonical working context, repo state, assumptions, risks, and supplied assets | Yes |
+| `REQUIRED_DOCUMENTS.md` | Tracks required/optional documents and status | Yes |
 | `PROJECT_BRIEF.md` | Defines goal, user, constraints, success | Yes |
 | `MISSING_INFO.md` | Tracks blockers and questions | Yes |
 | `APPROVAL_POLICY.md` | Records what Codex may do automatically | Yes |

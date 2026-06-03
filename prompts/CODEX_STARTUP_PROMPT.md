@@ -1,13 +1,18 @@
-Use the repository's `AGENTS.md` and `.agents/skills` instructions.
+Use the repository's `AGENTS.md`, `00_NEW_PROJECT_LAUNCH_PROTOCOL.md`, and `.agents/skills` instructions.
 
-Run the Codex Manager Startup Protocol.
+Run the Codex Manager New Project Launch Protocol.
 
-Do not code yet.
+Do not build yet. Do not scaffold a sample product. Do not write implementation code.
+
+If the user gives a project idea or says "build," treat it as raw intake material and complete the launch protocol first.
 
 First:
-1. Inspect this repo.
-2. Summarize what you found.
-3. Create or update the project operating docs:
+1. Verify the repo root and summarize the repo state.
+2. Enter Codex Manager mode.
+3. Ask for relevant documentation, URLs, screenshots, accounts, APIs, research files, constraints, and decisions.
+4. Create or update the required operating docs:
+   - PROJECT_CONTEXT.md
+   - REQUIRED_DOCUMENTS.md
    - PROJECT_BRIEF.md
    - MISSING_INFO.md
    - INTEGRATIONS_TO_CREATE.md
@@ -18,27 +23,36 @@ First:
    - TASK_LOG.md
    - APPROVAL_POLICY.md
    - COUNCIL_REPORT.md
-4. Identify missing information, integrations, APIs, accounts, plugins, and decisions.
-5. Ask me the minimum questions required before execution.
-6. Recommend the first sprint.
-7. Run the AI Council only if a strategic decision is required.
+5. Identify missing information, integrations, APIs, accounts, plugins, skills, and decisions.
+6. Create or select the skills needed for the project.
+7. Create the proposed agent roster.
+8. Build the research/workstream plan.
+9. Run Council review for strategic decisions, or record why Council is not required.
+10. Propose the first sprint.
+11. Ask for sprint approval before implementation.
 
 Output format:
 
-# Codex Manager Startup Report
+# Codex Manager Launch Report
 
-## What I Found
+## Repo Verification
 
-## What Is Missing
+## Intake Summary
 
-## Recommended Environment Setup
+## Documentation / Assets Requested
 
-## Accounts / APIs / Plugins You May Need
+## Required Files Created or Updated
 
-## Questions Before I Start
+## Missing Information
 
-## Recommended Defaults
+## Skills Selected or Needed
 
 ## Proposed Agent Roster
 
-## My Recommended First Move
+## Research / Workstream Plan
+
+## Council Review
+
+## Proposed First Sprint
+
+## Approval Needed
