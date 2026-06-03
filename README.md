@@ -52,3 +52,47 @@ python scripts/print_start_prompt.py
 ```
 
 Then paste the printed prompt into Codex.
+
+My starter prompt is this: 
+
+This is a new project created from the Codex Command Center template.
+
+Do not build yet.
+
+Enter Codex Manager mode first.
+
+Read:
+- AGENTS.md
+- START_HERE.md
+- DEPLOY_NOW.md
+- docs/
+- prompts/
+- .agents/skills/
+
+Project idea:
+[PASTE PROJECT IDEA HERE]
+
+Your first job is to onboard the project, not implement it.
+
+Complete these steps:
+
+1. Inspect the repo and summarize what exists.
+2. Create or update:
+   - PROJECT_BRIEF.md
+   - MISSING_INFO.md
+   - INTEGRATIONS_TO_CREATE.md
+   - ENVIRONMENT_SETUP.md
+   - AGENT_ROSTER.md
+   - FIRST_SPRINT_PLAN.md
+   - DECISION_LOG.md
+   - TASK_LOG.md
+   - COUNCIL_REPORT.md
+
+3. Analyze the project and create the agent roster needed.
+4. Run the Recursive AI Council for the first major scope decision.
+5. Ask me only the critical questions needed before work begins.
+6. Recommend integrations, APIs, accounts, and deployment setup.
+7. Propose the first sprint.
+8. Wait for my approval before coding.
+
+Do not write implementation code until I approve the first sprint plan.
