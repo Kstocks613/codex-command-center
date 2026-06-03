@@ -1,0 +1,9 @@
+# Example project-scoped Codex config.
+# Copy to `.codex/config.toml` only after you trust this project and want project-level defaults.
+# Review official Codex config docs before changing sandbox/approval settings.
+
+# Example only:
+# approval_policy = "on-request"
+# sandbox_mode = "workspace-write"
+
+# Prefer storing personal defaults in ~/.codex/config.toml.

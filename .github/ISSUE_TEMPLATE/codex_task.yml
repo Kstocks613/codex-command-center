@@ -1,0 +1,36 @@
+name: Codex Task
+description: Delegate a scoped task to Codex
+title: "[Codex Task]: "
+labels: ["codex", "task"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What should Codex accomplish?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What files, docs, constraints, or decisions matter?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: What must be true when the task is done?
+    validations:
+      required: true
+  - type: dropdown
+    id: approval
+    attributes:
+      label: Approval Level
+      options:
+        - Level 1 - safe without asking
+        - Level 2 - ask once then remember
+        - Level 3 - always ask first
+    validations:
+      required: true
